@@ -4,9 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-void test() {
-  ['Foo', 'Bar', 'Baz'];
-}
+void test() {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -20,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Flutter demo'),
     );
   }
 }
